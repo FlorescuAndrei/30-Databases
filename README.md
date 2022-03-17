@@ -28,13 +28,13 @@ More to add:
 Notes   
 When running the project, in the console you will be asked two times for a song name.   
 -  First time we use Statement . Statement use SQL that Concatenate Strings. An Injection Attack can be done.  
--  Second time we use PrepairedStatement. PrepairedStatement use SQL that contains a placeholder,  (" ?"),  that will be replaced with a literal value.  
+-  Second time we use PrepairedStatement. PrepairedStatement use SQL that contains a placeholder,  (" ?"),  that will be replaced with a literal value. Injection can not be done.  
 Use:  
-Go Your Own Way  - for a valid song name
-Go Your Own Way" or 1=1 or " – to Inject SQL . 
+Go Your Own Way  - for a valid song name  
+Go Your Own Way" or 1=1 or " – to Inject SQL   
 
 Database Diagram:  
-![Database Diagram:](music diagram.png)  
+![Database Diagram:](/music diagram.png)  
 
 
  [BACK TO START PAGE](https://github.com/FlorescuAndrei/Start.git)

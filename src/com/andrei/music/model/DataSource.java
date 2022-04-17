@@ -17,7 +17,7 @@ import java.util.List;
 //9. SQL Injection Attacks and Prepared Statements
 //10. Transaction and Inserts -  create a transaction by inserting  artist, album, song and commit all after inserting song.
 
-//For start, 1. Query for Artists, create method open() and close() only with conn = Driver...., and method queryArtists() = first query
+//To start (1. Query for Artists) create method open() and close() only with conn = Driver...., and method queryArtists() = first query
 
 public class DataSource {
     public static final String DB_NAME = "music";

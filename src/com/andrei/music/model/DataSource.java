@@ -329,7 +329,7 @@ public class DataSource {
 
             //first column is at position 1
             for(int i = 1; i <= numColumns; i++){
-                System.out.format("Column %d in songs table is names %s\n", i, meta.getColumnName(i));
+                System.out.format("Column %d in songs table is named %s\n", i, meta.getColumnName(i));
             }
         }catch(SQLException e){
             System.out.println("Query failed: " + e.getMessage());

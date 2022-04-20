@@ -1,4 +1,7 @@
-package com.andrei.music.model;
+package com.andrei.music;
+
+import com.andrei.music.model.Artist;
+import com.andrei.music.model.SongArtist;
 
 import java.sql.*;
 import java.util.ArrayList;

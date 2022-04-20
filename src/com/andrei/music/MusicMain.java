@@ -1,7 +1,6 @@
 package com.andrei.music;
 
 import com.andrei.music.model.Artist;
-import com.andrei.music.model.DataSource;
 import com.andrei.music.model.SongArtist;
 
 import java.util.List;
@@ -12,7 +11,7 @@ public class MusicMain {
 
         DataSource dataSource = new DataSource();
 
-        // open dataSource
+        // open dataSourceLight
         if(!dataSource.open()){
             System.out.println("Can't open database");
             return;
@@ -27,7 +26,7 @@ public class MusicMain {
             System.out.println(artist);
         }
 
-//        List<String>albumsForArtist = dataSource.queryAlbumsForArtists ("Queen", DataSource.ORDER_BY_ASC);
+//        List<String>albumsForArtist = dataSourceLight.queryAlbumsForArtists ("Queen", DataSourceLight.ORDER_BY_ASC);
 //        for(String album: albumsForArtist){
 //            System.out.println(album);
 //        }
@@ -101,7 +100,7 @@ public class MusicMain {
 
 
 
-        //close dataSource
+        //close dataSourceLight
         dataSource.close();
 
     }

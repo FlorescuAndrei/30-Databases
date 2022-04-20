@@ -7,6 +7,16 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+//1. Query for Artists
+//2. Query Albums by Artists
+//3. Query Artists for Songs
+//4. Result Set Metadata
+//5. Function count
+//7. Create View
+//8. Query View
+//9. SQL Injection Attacks and Prepared Statements
+//10. Transaction and Inserts -  create a transaction by inserting  artist, album, song and commit all after inserting song.
+
 public class DataSourceLight {
 
     private Connection conn;

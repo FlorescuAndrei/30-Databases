@@ -7,6 +7,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+//This is a simplified short version of DataSource class
 //1. Query for Artists
 //2. Query Albums by Artists
 //3. Query Artists for Songs

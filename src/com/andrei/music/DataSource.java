@@ -20,6 +20,8 @@ import java.util.List;
 //9. SQL Injection Attacks and Prepared Statements
 //10. Transaction and Inserts -  create a transaction by inserting  artist, album, song and commit all after inserting song.
 
+//To start (1. Query for Artists) create method open() and close() only with conn = Driver...., and method queryArtists() = first query
+
 public class DataSource {
     public static final String DB_NAME = "music";
     public static final String CONNECTION_STRING = "jdbc:mysql://localhost:3306/" + DB_NAME + "?useSSL=false&serverTimezone=UTC";
@@ -330,7 +332,7 @@ public class DataSource {
 
             //first column is at position 1
             for(int i = 1; i <= numColumns; i++){
-                System.out.format("Column %d in songs table is names %s\n", i, meta.getColumnName(i));
+                System.out.format("Column %d in songs table is named %s\n", i, meta.getColumnName(i));
             }
         }catch(SQLException e){
             System.out.println("Query failed: " + e.getMessage());

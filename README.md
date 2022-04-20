@@ -8,7 +8,7 @@ Packages:
 -  music package has classes that work with a music database with three tables: songs, albums, artists.    
 
 Classes in the music package:    
--  A class that will hold methods for each query, or other operations.(ex: Datasource).  
+-  A class that will hold methods for each query, or other operations.(Datasource. DatasourceLight is a simplified short version).  
 -  Classes for every table in  (ex: Song).  
 -  A class for view or join result if we want to retrieve data from many tables (ex: SongArtist).  
 -  Main class will apply methods from the Datasource class. Main class doesn’t know about the database.  
